@@ -5,7 +5,7 @@ services:
 
 env:
   global:
-    - IMAGE_NAME=diuis/docker-debian9-git_wget_python3_nodejs
+    - IMAGE_NAME=diuis/docker-ubuntu-git_wget_python3_nodejs
 
 script:
   - docker build . -t "$IMAGE_NAME"
